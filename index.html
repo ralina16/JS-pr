@@ -43,7 +43,35 @@
         </div>
         <div class="header-buttons">
             <a href="#" class="btn">Start your project</a>
-            <a href="#" class="header-btn">Sign in</a>
+            <button class="header-btn" onclick="showModal()">Sign in</button>
+
+            <div class="modal" id="modal" style="display:none;">
+                <div class="modal_content">
+                    <span onclick="hideModal()" class="back">×</span>
+                    <form action="" class="modal-form">
+                        <h3>Sign in</h3>
+                        <input type="text" placeholder="Name">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="sign">Sign in</button>
+                        <p class="modal-info">Don't you have an account?
+                            <a href="#" class="reg-link" onclick="switchToLoginModal(event)">Log in</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="modal" id="loginModal" style="display:none;">
+                <div class="modal_content">
+                    <span onclick="hideLoginModal()" class="back">×</span>
+                    <form action="" class="modal-form">
+                        <h3>Log in</h3>
+                        <input type="text" placeholder="Username">
+                        <input type="text" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="sign">Log in</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
     <div class="header-line"></div>

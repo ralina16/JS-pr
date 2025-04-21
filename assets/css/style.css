@@ -147,6 +147,10 @@ body {
 .header-btn {
     font-size: 14px;
     font-weight: 700;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .header-line {
@@ -154,6 +158,95 @@ body {
     width: 100%;
     background-color: #fff;
 }
+
+.modal {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.534);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+    position: fixed;
+    color: #161616;
+}
+
+.modal-form {
+    width: 300px;
+}
+
+.modal-form h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.modal_content {
+    position: relative;
+    padding: 40px 80px;
+    background-color: #161616;
+    border: 1px solid #ffffff1a;
+    border-radius: 4px;
+}
+
+.back {
+    top: 10px;
+    right: 20px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+input {
+    background: none;
+    border: 1px solid #ffffff33;
+    outline: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+input:focus {
+    border: 1px solid #24b47f28;
+}
+
+::placeholder {
+    font-size: 11px;
+    color: #7c7c7c;
+    letter-spacing: 0.03em;
+}
+
+.sign {
+    background-color: #24B47E;
+    padding: 7px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color: #1d8660;
+}
+
+.reg-link {
+    color: #1d8660;
+    font-weight: 500;
+}
+
+.modal-info {
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff85;
+    font-weight: 400;
+}
+
 /* header end */
 
 /* banner start */
@@ -174,7 +267,7 @@ body {
     gap: 12px;
     align-items: center;
     font-size: 18px;
-   font-weight: 400;
+    font-weight: 400;
 }
 
 .name_banner {
@@ -229,6 +322,7 @@ body {
 .slide.active {
     opacity: 1;
 }
+
 /* banner end */
 
 /* advantages start */
@@ -262,6 +356,7 @@ body {
 .info2 {
     font-size: 13px !important;
 }
+
 /* advantages end */
 
 /* media start */
@@ -480,6 +575,7 @@ body {
 .dropdown_content_3 {
     margin-left: 20px;
 }
+
 /* media end */
 
 /* integrates start */
@@ -566,6 +662,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
 }
+
 /* integrates end */
 
 /* footer start */
@@ -641,4 +738,5 @@ body {
     display: flex;
     gap: 20px;
 }
+
 /* footer end */

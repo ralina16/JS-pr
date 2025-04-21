@@ -110,3 +110,35 @@ btns.forEach((btn, index) => {
 });
 
 document.querySelector('.action-btn').classList.add('active');
+
+// Модальное окно авторизации и регистрации
+let modal = document.getElementById("modal");
+let loginModal = document.getElementById("loginModal");
+
+function showModal() {
+    modal.style.display = "flex";
+}
+
+function hideModal() {
+    modal.style.display = "none";
+}
+
+function showLoginModal() {
+    loginModal.style.display = "flex";
+}
+
+function hideLoginModal() {
+    loginModal.style.display = "none";
+}
+
+function switchToLoginModal(event) {
+    event.preventDefault();
+    hideModal();
+    showLoginModal();
+}
+
+function switchToSignInModal(event) {
+    event.preventDefault();
+    hideLoginModal();
+    showModal();
+}
