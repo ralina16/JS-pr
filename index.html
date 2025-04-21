@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supabase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/image/header/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header start -->
+    <div class="header container">
+        <div class="header-container">
+            <a href="#" class="logo"><img src="assets/image/header/logo.svg" alt=""></a>
+            <div class="dropdown-item">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Product <img src="assets/image/header/icon.svg"
+                            alt=""></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Ссылка 1</a>
+                        <a href="#">Ссылка 2</a>
+                        <a href="#">Ссылка 3</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button onclick="myFunction1()" class="dropbtn-1">Developers <img src="assets/image/header/icon.svg"
+                            alt=""></button>
+                    <div id="myDropdown-1" class="dropdown-content-1">
+                        <a href="#">Ссылка 4</a>
+                        <a href="#">Ссылка 5</a>
+                        <a href="#">Ссылка 6</a>
+                    </div>
+                </div>
+
+                <a href="#">Beta</a>
+                <a href="#">Pricing</a>
+            </div>
+        </div>
+        <div class="header-buttons">
+            <a href="#" class="btn">Start your project</a>
+            <a href="#" class="header-btn">Sign in</a>
+        </div>
+    </div>
+    <div class="header-line"></div>
+    <!-- header end -->
+
+
+    <!-- banner start  -->
+    <div class="banner container">
+        <div class="banner_left">
+            <div class="banner_storage">
+                <img src="assets/image/banner/storage.svg" alt="">
+                Storage
+            </div>
+
+            <p class="name_banner">Store and serve <br>any type of digital content</p>
+
+            <p class="info">An open source Object store service with unlimited scalability, for <br>any file type.</p>
+            <p class="about">With custom policies and permissions that are familiar and easy to <br> implement.</p>
+
+            <div class="banner_btn">
+                <a href="#" class="btn_green">Start a project</a>
+            </div>
+        </div>
+
+        <div class="banner_right">
+            <div class="slider">
+                <img src="assets/image/banner/image-banner.svg" alt="" class="slide active">
+                <img src="assets/image/banner/image-2.jpg" alt="" class="slide">
+                <img src="assets/image/banner/image-3.jpg" alt="" class="slide">
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+
+
+    <!-- adventages start -->
+    <div class="adventages container">
+        <div class="advantages_cards">
+            <div class="advantages_card">
+                <div class="card_images">
+                    <img src="assets/image/advantages/images.svg" alt="">
+                </div>
+                <p class="name">Interoperable</p>
+                <p class="info">Integrates well with the rest of Supabase ecosystem, including Auth and Postgres.
+                </p>
+            </div>
+
+            <div class="advantages_card">
+                <div class="card_images">
+                    <img src="assets/image/advantages/images-2.svg" alt="">
+                </div>
+                <p class="name">Lightning fast</p>
+                <p class="info">Thin API server layer that leverages Postgres' permissions and performance.</p>
+            </div>
+
+            <div class="advantages_card">
+                <div class="card_images">
+                    <img src="assets/image/advantages/images-3.svg" alt="">
+                </div>
+                <p class="name">Dependable</p>
+                <p class="info info2">Enterprise-level scalability and durability.</p>
+            </div>
+        </div>
+    </div>
+    <!-- adventages end -->
+
+    <!-- media start -->
+    <div class="media-dashboard-container container mt-140">
+        <div class="top-section">
+            <p class="main-title">Sleek dashboard for managing your media</p>
+            <p class="description">A complete Object Explorer so that any of your team can use.</p>
+            <span>Drag and drop uploading, moving objects, and multiple object selection. As easy as working on your
+                desktop.</span>
+        </div>
+        <div class="content-section">
+            <div class="left-panel">
+                <div class="filter-options">
+                    <button class="action-btn active" data-image="assets/image/media/left.png"
+                        data-title="File previews" data-text="Preview any media type, including video and audio.">
+                        File previews
+                    </button>
+                    <button class="action-btn" data-image="assets/image/media/2.jpg" data-title="Column view"
+                        data-text="Organize files in a column-based layout for better navigation.">
+                        Column view
+                    </button>
+                    <button class="action-btn" data-image="assets/image/media/3.jpg" data-title="List view"
+                        data-text="View files in a detailed list format with metadata.">
+                        List view
+                    </button>
+                    <button class="action-btn" data-image="assets/image/media/4.jpg" data-title="Multi select actions"
+                        data-text="Perform actions on multiple files simultaneously.">
+                        Multi select actions
+                    </button>
+                    <button class="action-btn" data-image="assets/image/media/5.jpg" data-title="Path navigator"
+                        data-text="Navigate through directories easily with breadcrumbs.">
+                        Path navigator
+                    </button>
+                </div>
+                <img src="assets/image/media/left.png" alt="" class="tab-image">
+            </div>
+            <div class="right-panel">
+                <span class="section-title">File previews</span>
+                <p class="info-text">Preview any media type, including video and <br> audio.</p>
+                <span class="section-title">Check out our example app</span>
+                <div class="example-box">
+                    <span>Profile management example</span>
+                    <p>Update a user account with public profile information, including uploading a profile image.</p>
+                    <div class="creator-info">
+                        <span>Created by:</span> <img src="assets/image/media/rec.svg" alt="">
+                        <p>supabase</p>
+                    </div>
+                </div>
+                <div class="app-details">
+                    <p>nextjs-ts-user-management</p>
+                    <img src="assets/image/media/cat.svg" alt="">
+                </div>
+                <div class="dropdown_3 dropdown">
+                    <button onclick="myFunction3()" class="menu-btn">
+                        <img src="assets/image/media/group.svg" alt="Menu Icon">
+                    </button>
+                    <div id="myDropdown_3" class="dropdown_content_3 dropdown-content">
+                        <a href="#">Deploy 1</a>
+                        <a href="#">Deploy 2</a>
+                        <a href="#">Deploy 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- media end -->
+
+    <!-- integrates start -->
+    <div class="integrates container mt-140">
+        <div class="title">
+            <h2>Integrates natively with Supabase Auth</h2>
+        </div>
+
+        <div class="integrates_menu">
+            <div class="accordions">
+                <div class="accardion">
+                    <div class="accardion-header">
+                        <span class="accardion-title">Using Postgres Row Level Security to create Object access
+                            rules.</span>
+                        <img src="assets/image/integrates/1.svg" alt="Arrow" class="accardion-arrow">
+                    </div>
+                    <div class="accardion-content">
+                        <p>Storage Authorization is built around Postgres so that you can use any combination of
+                            SQL, Postgres functions, and even your own metadata to write policies.Storage
+                            Authorization is built around Postgres so that you can use any combination of SQL,
+                            Postgres functions, and even your own metadata to write policies.Storage is built around
+                            Postgres so that you can use any combination of SQL, Postgres functions, and even your
+                            own metadata to write policies.</p>
+                        <div class="integrates_btn">
+                            <a href="#"><img src="assets/image/integrates/line.svg" alt="#">Expore documentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accardion">
+                    <div class="accardion-header">
+                        <span class="accardion-title">Using Postgres Row Level Security to create Object access
+                            rules.</span>
+                        <img src="assets/image/integrates/1.svg" alt="Arrow" class="accardion-arrow">
+                    </div>
+                    <div class="accardion-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor a laboriosam qui
+                            molestiae pariatur dolores natus illum consequuntur excepturi tenetur, aliquam ex optio
+                            deleniti aperiam sequi fugiat esse repellat.</p>
+                    </div>
+                </div>
+
+                <div class="accardion">
+                    <div class="accardion-header">
+                        <span class="accardion-title">Using Postgres Row Level Security to create Object access
+                            rules.</span>
+                        <img src="assets/image/integrates/1.svg" alt="Arrow" class="accardion-arrow">
+                    </div>
+                    <div class="accardion-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor a laboriosam qui
+                            molestiae pariatur dolores natus illum consequuntur excepturi tenetur, aliquam ex optio
+                            deleniti aperiam sequi fugiat esse repellat.</p>
+                    </div>
+                </div>
+
+                <div class="accardion">
+                    <div class="accardion-header">
+                        <span class="accardion-title">Using Postgres Row Level Security to create Object access
+                            rules.</span>
+                        <img src="assets/image/integrates/1.svg" alt="Arrow" class="accardion-arrow">
+                    </div>
+                    <div class="accardion-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor a laboriosam qui
+                            molestiae pariatur dolores natus illum consequuntur excepturi tenetur, aliquam ex optio
+                            deleniti aperiam sequi fugiat esse repellat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- integrates end -->
+
+    <!-- footer start -->
+    <footer class="footer-info-container container">
+        <div class="footer">
+            <div class="footer-icons-1">
+                <a href="#"><img src="assets/image/header/logo.svg" alt=""></a>
+                <div class="footer-links">
+                    <a href="#"><img src="assets/image/footer/image-1.svg" alt=""></a>
+                    <a href="#" class="footer-image-2"><img src="assets/image/footer/image-2.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <div class="nav-footer">
+                    <a href="#" class="name">Product</a>
+                    <a href="#" class="info">Database</a>
+                    <a href="#" class="info">Authentication</a>
+                    <a href="#" class="info">Storage</a>
+                    <a href="#" class="info">Functions</a>
+                    <a href="#" class="info">Coming soon</a>
+                    <a href="#" class="info">Pricing</a>
+                </div>
+
+                <div class="nav-footer">
+                    <a href="#" class="name">Resources</a>
+                    <a href="#" class="info">Support</a>
+                    <a href="#" class="info">Case Studies</a>
+                    <a href="#" class="info">System Status</a>
+                    <a href="#" class="info">Terms of service</a>
+                </div>
+
+                <div class="nav-footer">
+                    <a href="#" class="name">Developers</a>
+                    <a href="#" class="info">Documentation</a>
+                    <a href="#" class="info">API Reference</a>
+                    <a href="#" class="info">Guides</a>
+                </div>
+
+                <div class="nav-footer">
+                    <a href="#" class="name">Company</a>
+                    <a href="#" class="info">Blog</a>
+                    <a href="#" class="info">Open Source</a>
+                    <a href="#" class="info">Humans.txt</a>
+                    <a href="#" class="info">Lawyers.txt</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-2">
+            <div class="line"></div>
+            <div class="footer-info">
+                <p>© Supabase Inc</p>
+
+                <div class="footer-icons">
+                    <img src="assets/image/footer/icon-1.svg" alt="">
+                    <img src="assets/image/footer/icon-2.svg" alt="">
+                    <img src="assets/image/footer/icon-3.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- footer end -->
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
